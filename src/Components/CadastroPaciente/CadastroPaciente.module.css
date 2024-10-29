@@ -1,0 +1,12 @@
+.cadastropaciente{
+    position: center;
+    display: block;
+    min-height: 100vh;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.formpaciente{
+    max-width: 30rem; 
+    padding: 2rem;
+}

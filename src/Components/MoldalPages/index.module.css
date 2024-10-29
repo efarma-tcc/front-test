@@ -1,0 +1,11 @@
+.modals{
+    display: flex;
+    align-items: center;
+    background-color: #F1F5F9;
+    width: auto;
+    height: 5rem;
+    margin: auto 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--type-first);
+}

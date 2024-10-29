@@ -1,0 +1,25 @@
+.cadastrofuncionario{
+    position: relative;
+    display: block;
+    min-height: 100vh;
+    gap: 2rem;
+    overflow: hidden;
+  }
+    
+  .formfuncionario{
+    max-width: 30rem; 
+    padding: 2rem;
+  }
+  
+
+  @media (max-width: 40rem){
+    .cadastrofuncionario{
+      grid-template-columns: 1fr;
+    }
+    .cadastrofuncionario::before{
+      display: none;
+    }
+    .formfuncionario{
+      max-width: 100%;
+    }
+  }

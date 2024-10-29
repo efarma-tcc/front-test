@@ -1,0 +1,24 @@
+.cadastroreceita{
+    position: center;
+    display: block;
+    min-height: 100vh;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.formReceita{
+    max-width: 30rem; 
+    padding: 2rem;
+}
+
+@media (max-width: 40rem){
+    .cadastroreceita{
+      grid-template-columns: 1fr;
+    }
+    .cadastroreceita::before{
+      display: none;
+    }
+    .formReceita{
+      max-width: 100%;
+    }
+  }

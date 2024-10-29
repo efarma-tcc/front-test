@@ -1,0 +1,25 @@
+.cadastronovasenha{
+    position: relative;
+    display: block;
+    min-height: 100vh;
+    gap: 2rem;
+    overflow: hidden;
+  }
+    
+  .formnovasenha{
+    max-width: 30rem; 
+    padding: 2rem;
+  }
+  
+
+  @media (max-width: 40rem){
+    .cadastronovasenha{
+      grid-template-columns: 1fr;
+    }
+    .cadastronovasenha::before{
+      display: none;
+    }
+    .formnovasenha{
+      max-width: 100%;
+    }
+  }

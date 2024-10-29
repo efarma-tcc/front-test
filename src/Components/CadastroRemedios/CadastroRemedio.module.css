@@ -1,0 +1,24 @@
+.cadastroremedio{
+    position: center;
+    display: block;
+    min-height: 100vh;
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.formRemedio{
+    max-width: 30rem; 
+    padding: 2rem;
+}
+
+@media (max-width: 40rem){
+    .cadastroremedio{
+      grid-template-columns: 1fr;
+    }
+    .cadastroremedio::before{
+      display: none;
+    }
+    .formRemedio{
+      max-width: 100%;
+    }
+  }

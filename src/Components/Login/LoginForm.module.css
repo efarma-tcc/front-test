@@ -1,0 +1,28 @@
+.form{
+  margin-bottom: 2rem;
+}
+
+.cadastro{
+  margin-top: 2rem;
+}
+
+.cadastro p{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.perdeu{
+  display: inline-block;
+  color: #666;
+  padding: 0.5rem 0;
+  line-height: 1;
+  margin-top: -10px;
+}
+
+.perdeu::after{
+  content: '';
+  height: 1.8px;
+  width: 100%;
+  background: currentColor;
+  display: block;
+}

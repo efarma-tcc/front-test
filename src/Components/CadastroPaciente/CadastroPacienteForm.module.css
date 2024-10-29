@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@700&display=swap');
+
+.formcontainerP{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 1000px; 
+    margin: 0;
+    padding: 16px;
+    margin: auto 1rem;
+}
+
+.formrowP{
+    display: flex;
+    gap: 20px;
+}

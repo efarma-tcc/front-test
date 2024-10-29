@@ -1,0 +1,32 @@
+.containerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1{
+    font-size: 1rem;
+    font-family: var(--type-first);
+    cursor: pointer;
+    border: none;
+    border-radius: 0.4rem;
+    background: #00ACAC;
+    color: white;
+    min-width: 8rem;
+    padding: 0.8rem 1.2rem;
+    box-sizing: border-box;
+    transition: 0.1s;
+    width: 600px;
+    height: 60px;
+  }
+  
+  .button1:hover,
+  .button1:focus{
+    outline: none;
+    box-shadow: 0 0 0 1px #00cccc, 0 0 0 2px #00ACAC;
+  }
+  
+  .button1:disabled{
+    opacity: 0.5;
+    cursor: wait;
+  }

@@ -1,0 +1,23 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 0px;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+}
+.dark{
+    background-color: #af3737;
+}
+.ligth{
+    background-color: #F1F5F9;
+}
+.logoIcon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    border-radius: 50%;
+}

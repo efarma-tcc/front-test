@@ -1,0 +1,14 @@
+.formContainerRe{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 1000px; 
+    padding: 16px;
+    margin: auto 1rem;
+}
+
+.formrowRe{
+    display: flex;
+    gap: 20px;
+}

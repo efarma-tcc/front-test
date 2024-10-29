@@ -1,0 +1,15 @@
+.formcontainerR{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 1000px; 
+    margin: 0;
+    padding: 16px;
+    margin: auto 1rem;
+}
+
+.formrowR{
+    display: flex;
+    gap: 20px;
+}
